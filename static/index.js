@@ -348,10 +348,10 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '逊呐';
-        if (score <= 99) return '哼哼哼';
-        if (score <= 149) return '你是一个一个一个';
-        if (score <= 199) return '哼哼哼啊啊啊啊啊';
+        if (score <= 49) return '张俊哲：废物加油吧';
+        if (score <= 99) return '张俊哲：垃圾快点';
+        if (score <= 149) return '张俊哲：有点东西';
+        if (score <= 199) return '张俊哲：怎么可能，离谱！';
         return '都撅烂了罢（恼';
     }
 
